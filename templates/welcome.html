@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Welcome - Project C VPN</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Log into Project C VPN</h1>
+        </header>
+        <section class="vpn-status">
+            <h2>VPN Connection Status</h2>
+            <p><strong>Server:</strong> New York, USA</p>
+            <p><strong>IP Address:</strong> 192.168.1.1</p>
+            <p><strong>Protocol:</strong> OpenVPN</p>
+            <p><strong>Your VPN connection is active.</strong></p>
+        </section>
+        <form action="{{ url_for('logout') }}" method="post">
+            <input type="submit" value="Logout">
+        </form>
+    </div>
+</body>
+</html>
