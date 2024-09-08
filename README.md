@@ -1,7 +1,3 @@
-Here’s a `README.md` for your Project C VPN:
-
----
-
 # Project C VPN
 
 **Project C VPN** is a modern and user-friendly virtual private network (VPN) login system designed for secure and streamlined access. It features a clean, contemporary login interface and simplifies user authentication for VPN connections.
